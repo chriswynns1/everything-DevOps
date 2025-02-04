@@ -25,20 +25,20 @@
 You can cook multiple meals from the same recipe, just like you can run multiple containers from the same image.
 
 ### Cheatsheet:
-```docker --version``` will check the docker version.
-```docker images``` will list all downloaded images.
-```docker run -it ubuntu bash```
+- ```docker --version``` will check the docker version.
+- ```docker images``` will list all downloaded images.
+- ```docker run -it ubuntu bash```
   - ```-it``` = interactive mode
   - ```ubuntu``` = image name
   - ```bash``` = the command that runs inside the container.
 - ```docker rm hello-world``` removes the container.
 - ```docker rmi nginx``` will remove the image from the repo.
-```docker ps``` will check running containers.
-```docker logs hello-world``` will display logs from a detached container (in this case, "hello-world").
-```docker attach hello-world``` will reattach a running container.
-```docker pull nginx``` downloads the nginx image, but does not run it.
-```docker exec -it hello-world sh``` will connect to hello-world's shell.
-```docker run -d --name hello-world -p 8080:80 nginx```
+- ```docker ps``` will check running containers.
+- ```docker logs hello-world``` will display logs from a detached container (in this case, "hello-world").
+- ```docker attach hello-world``` will reattach a running container.
+- ```docker pull nginx``` downloads the nginx image, but does not run it.
+- ```docker exec -it hello-world sh``` will connect to hello-world's shell.
+- ```docker run -d --name hello-world -p 8080:80 nginx```
   - Starts a container named "hello-world", running in detached mode (-d).
     - Foreground mode (default):
       - Runs the container **attached** to your terminal.
