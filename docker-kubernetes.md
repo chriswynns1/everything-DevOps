@@ -3,7 +3,7 @@
 ## Docker:
 
 ### What is Docker?
-- Docker lets you package applicatins and their dependencies into containers.
+- Docker lets you package applications and their dependencies into containers.
 - Containers are lightweight and portable.
 - They ensure your application runs the same way, regardless of the environment.
 
@@ -11,13 +11,13 @@
 - [Play with Docker](https://www.docker.com/play-with-docker/)
 
 ### Key Concepts:
-- Images: a template for a container.
+- **Images**: a template for a container.
   - Read-only package that has everything needed to run an app.
   - Static; they don't change when you run them.
   - Stored in registries like Docker Hub or your local machine.
   - Like a cooking recipe.
 
-- Containers: a running instance of an image.
+- **Containers**: a running instance of an image.
   - A live, isolated process on your system.
   - Mutable; they can change state, store files, and run apps.
   - Multiple containers can run the same image.
