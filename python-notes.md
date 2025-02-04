@@ -7,5 +7,17 @@
 
 ## Guides:
 
-## Notes:
+## Technologies / Software:
+- [AWS SDK for Python (boto3)](https://aws.amazon.com/sdk-for-python/)
+- 
 
+## Notes:
+- In Python, ```2 + 2``` is considered an *expression*.
+  - Expressions have *values* (2) and *operators* (+)
+- *Data type* - category for values; every value belongs to one data type
+- String concatenation:
+```
+>>> 'A' + 'B'
+'AB'
+```
+- 
