@@ -14,15 +14,25 @@
 
 ## What does a Dockerfile look like?
 1. ```FROM``` specifies the base image to use. It's the starting point for your custom image.
-  - ex: ```FROM ubuntu:20.04```
-2. ```COPY``` and ```ADD``` copies files or directories from your local system to the image.
-  - ex: ```COPY index.html /usr/share/nginx/html/```
+```
+FROM ubuntu:20.04
+```
+3. ```COPY``` and ```ADD``` copies files or directories from your local system to the image.
+```
+COPY index.html /usr/share/nginx/html/
+```
 3. ```RUN``` executes commands *inside* the image while it's being built, i.e. installing packages or configuring the environment.
-  - ex: ```RUN apt-get update && apt-get install -y curl```
-4. ```EXPOSE``` exposes a port to make it accessbile from otuside the container (not mandatory, but useful).
-  - ex: ```EXPOSE 80```
+```
+RUN apt-get update && apt-get install -y curl
+```
+5. ```EXPOSE``` exposes a port to make it accessbile from otuside the container (not mandatory, but useful).
+```
+EXPOSE 80
+```
 5. ```CMD``` and ```ENTRYPOINT``` define the command that will run when a container starts from the image.
-  - ex: ```CMD ["nginx", "-g", "daemon off;"]``` (for running nginx)
+```
+CMD ["nginx", "-g", "daemon off;"]
+```
 
 ## Example Dockerfile:
 ```
