@@ -4,7 +4,8 @@
 
 ### What is Docker?
 - Docker lets you package applicatins and their dependencies into containers.
-- Containers are lightweight and portable. They ensure your application runs the same way, regardless of the environment.
+- Containers are lightweight and portable.
+- They ensure your application runs the same way, regardless of the environment.
 
 ### Resources: 
 - [Play with Docker](https://www.docker.com/play-with-docker/)
