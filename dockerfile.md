@@ -49,3 +49,38 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
+## Making my first Dockerfile
+1. Create a directory for the project, which will contain the ```index.html``` file.
+```
+mkdir html && cd html
+```
+2. Create the HTML file.
+```
+echo "<html><body><h1>Hello, world!</h1></body></html>" > index.html
+```
+3. Create and edit the Dockerfile.
+```
+touch Dockerfile
+nano Dockerfile
+```
+4. Add instructions to the Dockerfile.
+```
+# Use official nginx image as a base
+FROM nginx:latest
+
+# Copy the custom HTML file into the container
+COPY index.html /usr/share/nginx/html/index.html
+
+# Expose port 80 (default for nginx)
+EXPOSE 80
+```
+5. Build the image.
+```
+docker build -t my-page .
+```
+- the ```-t``` flag tells docker you're going to name (tag) the image.
+6. Run the container.
+```
+docker run -d --name my-custom-page -p 8081:80 my-page
+```
+7. View the page
