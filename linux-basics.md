@@ -31,4 +31,5 @@
 - Rights and privileges are assigned to files and directories in the form of _permissions_
   - Tells us who can read, write, or run them
   - 3 types of users: owners, groups, and others
+
 ![permissions cheatsheet](https://github.com/user-attachments/assets/b7a951b3-e2e8-49eb-af8a-3432302f02d6)
