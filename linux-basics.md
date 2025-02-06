@@ -88,13 +88,13 @@ ln -s source_file.txt soft_link.txt
 - ```-w``` match the whole word
 
 ### Examples
-```grep 'pattern' filename``` search for a pattern within a file
-```grep 'string1|string2' filename``` search for lines containing string1 or string2
-```grep -r 'pattern' /dir``` recursive search for pattern in /dir
-```grep -w 'full word' filename``` search for lines containing "full word"
-```grep -n 'pattern' filename``` show line numbers of lines w/ the pattern
-```grep -c 'pattern' filename``` count the lines w/ the pattern
-```grep --color 'pattern' filename``` highlight the pattern in the output
-```grep -i 'pattern' filename``` case-insensitive search
+- ```grep 'pattern' filename``` search for a pattern within a file
+- ```grep 'string1|string2' filename``` search for lines containing string1 or string2
+- ```grep -r 'pattern' /dir``` recursive search for pattern in /dir
+- ```grep -w 'full word' filename``` search for lines containing "full word"
+- ```grep -n 'pattern' filename``` show line numbers of lines w/ the pattern
+- ```grep -c 'pattern' filename``` count the lines w/ the pattern
+- ```grep --color 'pattern' filename``` highlight the pattern in the output
+- ```grep -i 'pattern' filename``` case-insensitive search
 
 
