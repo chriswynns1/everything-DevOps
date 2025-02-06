@@ -24,18 +24,22 @@
 - Just show up 30 minutes early
 - Cert is valid for 36 months (3 yrs)
 
-- public cloud: _everything_ is built on the CSP (aka cloud-native or cloud first in this context)
-  - fully utilize cloud computing
-  - dropbox, squarespace, startups
-- private cloud: everything built on company's datacenters (on-prem)
-  - deploying resources on-prem, using virtualiztion / resource management tools
-  - strict regulatory compliance or sheer size of org
-  - public sector, hospitals, insurance companies, etc.
-- hybrid: both
-  - banks, fintech, investment management, legacy on-prem
+### Public Cloud:
+- _everything_ is built on the CSP (aka cloud-native or cloud first in this context)
+- fully utilize cloud computing
+- dropbox, squarespace, startups
+### Private Cloud: 
+- everything built on company's datacenters (on-prem)
+- deploying resources on-prem, using virtualiztion / resource management tools
+- strict regulatory compliance or sheer size of org
+- public sector, hospitals, insurance companies, etc.
+### Hybrid: 
+- both. mix of on-prem and cloud
+- banks, fintech, investment management, legacy on-prem
 - cross-cloud: multiple cloud providers (multi-cloud)
   - ex: Azure Arc: deploy containers for K8s in GCP and AWS EKS
   - ex: Anthos (GCP's version of Arc)
   - These are known as control planes
-- 
+
+
 
