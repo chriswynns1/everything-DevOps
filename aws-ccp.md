@@ -41,5 +41,14 @@
   - ex: Anthos (GCP's version of Arc)
   - These are known as control planes
 
+### IAM, Roles, Permissions, oh my!
+- root is always email
+  - don't use this regularly
+- IAM is account ID or account alias
+- always add MFA
+- AdministratorAccess policy lets you do pretty much anything root can do
+- PowerUserAccess
+  - same as above, but can't modify users
+- 
 
 
