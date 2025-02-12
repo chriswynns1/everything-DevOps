@@ -49,6 +49,27 @@
 - AdministratorAccess policy lets you do pretty much anything root can do
 - PowerUserAccess
   - same as above, but can't modify users
-- 
 
+### Regions
+- geographically distinct locations w/ 1+ availability zones
+If you're choosing a region, here's what to consider:
+1. What regulatory compliance does this region meet?
+2. What's the cost of AWS services in this region?
+3. What AWS services are available in this region?
+4. What is the distance or latency to my end-users?
 
+### Availability Zones
+- phyiscal location made up of one or more datacenters
+- each REGION usually has 3 AZs
+- datacenters are close enough to provide low latency
+- best practice to run workloads in 3 AZs, in case 1 or 2 datacenters fail
+  - (HA)
+- all traffic is encrypted
+- 60mi within each other
+
+### Fault Tolerance
+- fault domain = section of network that is vulnerable to damage if a critical device or system fails
+  - if a failure occurs, it will not cascade outside (limits damage)
+
+### Global Network
+- the backbone of AWS
