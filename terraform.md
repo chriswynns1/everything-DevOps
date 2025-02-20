@@ -197,4 +197,11 @@ terraform {
 - checkov, tfsec, terrascan, terraform-compliance, snyk
 - Terraform Sentinal (enterprise only)
 - Terratest
-  - 
+
+## Developer Workflows
+1. Write / update code
+2. Run changes locally (dev env)
+3. Create pull request
+4. Run tests via continuous integration (CI)
+5. Deploy to staging via continuous deployment (CD) on merge to main
+6. Deploy to prod via CD (on release)
