@@ -186,12 +186,13 @@ terraform {
 - Tool that provides utilities to make Terraform use cases easier
 - [https://terragrunt.gruntwork.io/](https://terragrunt.gruntwork.io/)
 ### Testing Terraform Code?
-Built in features:
+### Built in features:
 - terraform fmt
 - terraform validate
 - terraform plan
 - custom validation rules
-External features:
+
+### External features:
 - tflint 
 - checkov, tfsec, terrascan, terraform-compliance, snyk
 - Terraform Sentinal (enterprise only)
